@@ -6,7 +6,7 @@ automatically with fix hints.
 ## Install
 
 **`axocoatl: command not found` after install.sh**
-The binary went to `~/.local/bin`, which isn't on your PATH. Add:
+The binary went to `~/.local/bin`, which isn't on your PATH. Add this to your shell profile (`~/.zshrc` or `~/.bashrc`):
 ```sh
 export PATH="$HOME/.local/bin:$PATH"
 ```
